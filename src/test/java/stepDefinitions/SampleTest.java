@@ -1,8 +1,10 @@
 package stepDefinitions;
 
-public class SampleTest {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class SampleTest {
+	@Test
+	public void printMethod() {
 		System.out.println("i am in SampleTest main method");
 
 	}
